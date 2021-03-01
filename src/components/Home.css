@@ -1,0 +1,896 @@
+/***h1 = 40px, h2 = 32px, h5 = 20px, h6 = 16px***/
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1, h5, h6 {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 3% 15% 30px;
+  background-color: #393e46;
+  color:  white;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer .disclaimer-statement {
+  margin-top: 5%;
+
+}
+
+footer .disclaimer-statement p {
+  text-align: left;
+  font-size: 12px;
+}
+
+footer i {
+  margin-right: 0.5%;
+  color: #f3c623;
+}
+
+hr {
+  border: solid 2px #006ec7;
+  width: 80px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  hr {
+    border: solid 1px #006ec7;
+    width: 50px;
+  }
+  footer {
+    padding: 10% 15% 30px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer i {
+    margin-right: 2%;
+  }
+  footer .disclaimer-statement {
+    margin-top: 15%;
+  }
+  footer .disclaimer-statement p {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  h1 {
+    font-size: 33px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  footer {
+    padding: 6% 15% 30px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer i {
+    margin-right: 1%;
+  }
+  footer .disclaimer-statement {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  h1 {
+    font-size: 36px;
+  }
+  h5 {
+    font-size: 17px;
+  }
+  footer {
+    padding: 6% 15% 30px;
+  }
+  footer i {
+    margin-right: 1%;
+  }
+  footer .disclaimer-statement {
+    margin-top: 10%;
+  }
+}
+
+
+/*** Containers ***/
+.container-fluid {
+  padding: 4% 15%;
+}
+
+@media (max-width: 480px) {
+  .container-fluid {
+    padding: 12% 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .container-fluid {
+    padding: 8% 7%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-fluid {
+    padding: 7% 5%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .container-fluid {
+    padding: 6% 10%;
+  }
+}
+
+/*** Headings ***/
+.heading {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.background-heading {
+  text-align: center;
+  position: relative;
+  top: 17px;
+  z-index: -1;
+}
+
+.background-heading h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #e6e8ef;
+}
+
+@media (max-width: 480px) {
+  .heading {
+    margin-bottom: 15%;
+  }
+  .background-heading {
+    top: 10px;
+  }
+  .background-heading h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .heading {
+    margin-bottom: 10%;
+  }
+  .background-heading {
+    top: 10px;
+  }
+  .background-heading h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .background-heading {
+    top: 12px;
+  }
+  .background-heading h1 {
+    font-size: 60px;
+  }
+}
+
+
+/*** Buttons ***/
+.btn-outline-light {
+  padding: 2% 5%;
+  background-color: #f3c623;
+  border: none;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.btn-outline-light:hover {
+  background-color: #f3c623;
+  color: white;
+  transform: scale(1.1);
+}
+
+.navbar-nav .btn-outline-light {
+  padding: 10px 25px;
+}
+
+@media (max-width: 1024px) {
+  .btn-outline-light {
+    padding: 3% 5%;
+  }
+}
+
+/*** Navbar ***/
+.navbar {
+  padding: 0 15%;
+  background-color: white !important;
+  box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
+}
+
+.navbar img {
+  width: 40%;
+  height: auto;
+}
+
+.nav-item {
+  margin: auto;
+  padding: 0 2%;
+}
+
+.nav-item a {
+  font-weight: bold;
+  color: #525b73 !important;
+}
+
+.home-link a:hover, .who-we-are-link a:hover, .life-at-zenith-link a:hover  {
+  border-bottom: solid thin #006ec7;
+}
+
+@media (max-width: 1024px) {
+  .home-link a:hover, .who-we-are-link a:hover, .life-at-zenith-link a:hover  {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 3% 12%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .navbar {
+    padding: 1% 15%;
+  }
+  .navbar img {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    padding: 1% 15%;
+  }
+  .navbar img {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .navbar {
+    padding: 1% 15%;
+  }
+  .navbar img {
+    width: 50%;
+  }
+}
+
+/*** Introduction ***/
+#introduction {
+ background-image: url("../introduction-images/teamwork-img.jpg");
+ background-size: cover;
+ height: 100vh;
+}
+
+.introduction-caption {
+  margin-top: 15%;
+}
+
+.introduction-caption h1 {
+  font-size: 85px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  #introduction {
+    background-position: center;
+  }
+  .introduction-caption {
+    margin-top: 50%;
+  }
+  .introduction-caption h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  .introduction-caption h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #introduction {
+    background-position: center;
+  }
+  .introduction-caption {
+    margin-top: 40%;
+  }
+  .introduction-caption h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .introduction-caption {
+    margin-top: 20%;
+  }
+  .introduction-caption h1 {
+    font-size: 65px;
+  }
+}
+
+/*** Leaders ***/
+#leaders img {
+  width: 50%;
+  height: auto;
+  margin-left: 30%;
+}
+
+#leaders .col-sm-5, #leaders .col-sm-7 {
+  margin-bottom: 5%;
+}
+
+.leader-background {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.leader-background p {
+  font-size: 25px;
+  color: #006ec7;
+}
+
+.leader-background span {
+  font-weight: 700;
+}
+
+.leader-background i {
+  color:#f3c623;
+  margin-bottom: 4%;
+}
+
+.leader-name {
+  float: right;
+}
+
+.leader-name span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.logo-background img {
+  position: absolute;
+  z-index: -1;
+  top: 1500px;
+  width: 65%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  #leaders img {
+    margin-left: 25%;
+  }
+  #leaders .col-sm-5, #leaders .col-sm-7 {
+    margin-bottom: 10%;
+  }
+  .leader-background p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .leader-name span {
+    font-size: 14px;
+  }
+  .logo-background img {
+    width: 70%;
+    top: 2000px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  #leaders img {
+    width: 70%;
+    margin-left: 10%;
+  }
+  #leaders .col-sm-5, #leaders .col-sm-7 {
+    margin-bottom: 10%;
+  }
+  .leader-background p {
+    font-size: 17px;
+  }
+  .leader-name span {
+    font-size: 14px;
+  }
+  .logo-background img {
+    width: 65%;
+    top: 1050px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #leaders img {
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .leader-background p {
+    font-size: 19px;
+  }
+  .leader-name {
+    float: left;
+  }
+  .leader-name span {
+    font-size: 15px;
+  }
+  .logo-background img {
+    width: 65%;
+    top: 1650px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #leaders img {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .leader-background p {
+    font-size: 19px;
+  }
+  .leader-name {
+    float: left;
+  }
+  .leader-name span {
+    font-size: 15px;
+  }
+  .logo-background img {
+    width: 65%;
+    top: 1370px;
+  }
+}
+
+
+
+/*** Life at Zenith ***/
+#life-at-zenith {
+  background-color: #006ec7;
+  text-align: center;
+}
+
+#life-at-zenith .container-fluid {
+  padding: 0 0;
+}
+
+#life-at-zenith img {
+  width: 100%;
+  height: auto;
+}
+
+#life-at-zenith h1 {
+  color: white;
+  margin: 20% 0 3%;
+  font-size: 50px;
+}
+
+@media (max-width: 480px) {
+  #life-at-zenith h1 {
+    font-size: 30px;
+    margin: 10% 0 5%;
+  }
+  #life-at-zenith button {
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  #life-at-zenith .container-fluid {
+    padding-right: 3%;
+  }
+  #life-at-zenith h1 {
+    font-size: 30px;
+    margin: 13% 0 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  #life-at-zenith .container-fluid {
+    padding-right: 5%;
+  }
+  #life-at-zenith h1 {
+    font-size: 34px;
+    margin: 10% 0 5%;
+  }
+
+}
+
+/*** Contact ***/
+#contact .container-fluid {
+  padding: 4% 25% 7%;
+}
+
+#contact .heading {
+  margin-bottom: 0
+}
+
+#contact .col-sm-8 {
+  padding: 3% 5% 5%;
+  border-right: solid thin #cccccc;
+}
+
+ #contact .col-sm-4 {
+   padding: 3% 2% 5% 5%;
+ }
+
+@media (max-width: 480px) {
+  #contact .container-fluid {
+    padding: 12% 5%;
+  }
+  #contact .col-sm-8 {
+    padding: 5% 5% 10%;
+    border-right: none;
+    border-bottom: solid thin #cccccc;
+  }
+  #contact .col-sm-4 {
+    padding: 10% 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  #contact .container-fluid {
+    padding: 8% 6%;
+  }
+  #contact .col-sm-8, #contact .col-sm-4 {
+    padding: 3% 3% 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #contact .container-fluid {
+    padding: 7% 7%;
+  }
+  #contact .col-sm-8, #contact .col-sm-4 {
+    padding: 3% 3% 5%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #contact .container-fluid {
+    padding: 6% 15%;
+  }
+}
+
+/*** Contact form ***/
+#contact input, #contact textarea {
+  padding-left: 7%;
+}
+
+#contact .btn-outline-light {
+  float: right;
+}
+
+#contact .marketing-consent-statement {
+  margin-top: 10%;
+}
+
+#contact .privacy-importance-statement {
+  margin-bottom: 5%;
+}
+
+#contact label, #contact .marketing-consent-statement p, #contact .privacy-importance-statement p {
+  font-size: 13px;
+}
+
+#contact label {
+  position: relative;
+  left: 5px;
+}
+
+#text-consent-checkbox, #call-consent-checkbox {
+  position: relative;
+  top: 7px;
+}
+
+@media (max-width: 480px) {
+  #contact input, #contact textarea {
+    padding-left: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  #contact input, #contact textarea {
+    padding-left: 9%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  #contact input, #contact textarea {
+    padding-left: 8%;
+  }
+}
+
+/*** Contact form icons ***/
+.fa-user, .envelope-outline, .fa-pen-alt, .fa-mobile-alt {
+  color: #cccccc;
+  position: absolute;
+  left: 12px;
+}
+
+.fa-user {
+  top: 12px;
+}
+
+.fa-mobile-alt {
+  top: 72px;
+}
+
+.envelope-outline {
+  top: 130px;
+}
+
+.fa-pen-alt {
+  top: 192px;
+}
+
+/*** Contact details ***/
+#contact h6, #contact p {
+  font-size: 14px;
+}
+
+.email, .phone-number, .location {
+  margin-bottom: 20%;
+}
+
+@media (max-width: 480px) {
+  .email, .phone-number, .location {
+    margin-bottom: 12%;
+  }
+}
+
+/*** Contact details icons ***/
+.envelope-solid, .fa-phone-alt, .fa-map-marker-alt {
+  color: #f3c623;
+  margin-right: 4%;
+}
+
+
+/*** Life introduction ***/
+#life-introduction {
+  background-image: url("../introduction-images/life-img-new.jpg");
+  background-size: cover;
+  height: 80vh;
+}
+
+#life-introduction h1 {
+  font-size: 75px;
+  color: white;
+  text-align: left;
+  margin-top: 15%;
+}
+
+@media (max-width: 480px) {
+  #life-introduction {
+    background-position: center;
+  }
+  #life-introduction h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  #life-introduction h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #life-introduction {
+    background-position: center;
+  }
+  #life-introduction h1 {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #life-introduction h1 {
+    font-size: 65px;
+    margin-top: 20%;
+  }
+}
+
+/*** All the values section ***/
+.each-value {
+  padding: 2% 15%;
+}
+
+.each-value h1, .each-value p {
+  text-align: left;
+  color: #006ec7;
+  margin-left: 5%;
+}
+
+.each-value h1 {
+  margin-top: 25%;
+  margin-bottom: 5%;
+  font-size: 50px;
+}
+
+.each-value p {
+  font-size: 20px;
+}
+
+.each-value .heading img  {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 28%;
+}
+
+#enriching .heading img, #fulfilling .heading img {
+  left: 45%;
+}
+
+#diverse .heading img {
+  left: 38%;
+}
+
+#exciting .heading img {
+  left: 40%;
+}
+
+#nurturing .heading img {
+  left: 50%;
+}
+
+.each-value .carousel-inner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 480px) {
+  .each-value {
+    padding: 12% 2%;
+  }
+  .each-value h1 {
+    margin-top: 5%;
+    font-size: 40px;
+  }
+  .each-value p {
+    font-size: 16px;
+  }
+  .each-value .heading {
+    margin-bottom: 10%;
+  }
+  .each-value .heading img {
+    width: 20%;
+    top: 0;
+  }
+  #enriching .heading img, #fulfilling .heading img {
+    left: 58%;
+  }
+  #diverse .heading img {
+    left: 48%;
+  }
+  #exciting .heading img {
+    left: 53%;
+  }
+  #nurturing .heading img {
+    left: 63%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .each-value {
+    padding: 5% 2%;
+  }
+  .each-value h1 {
+    margin-top: 10%;
+    font-size: 40px;
+  }
+  .each-value p {
+    font-size: 16px;
+  }
+  .each-value .heading img {
+    width: 20%;
+    top: 6%;
+  }
+  #enriching .heading img, #fulfilling .heading img {
+    left: 63%;
+  }
+  #diverse .heading img {
+    left: 53%;
+  }
+  #exciting .heading img {
+    left: 57%;
+  }
+  #nurturing .heading img {
+    left: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .each-value {
+    padding: 7% 2%;
+  }
+  .each-value h1 {
+    margin-top: 10%;
+    font-size: 44px;
+  }
+  .each-value p {
+    font-size: 18px;
+  }
+  .each-value .heading img {
+    width: 20%;
+    top: 6%;
+  }
+  #enriching .heading img, #fulfilling .heading img {
+    left: 65%;
+  }
+  #diverse .heading img {
+    left: 53%;
+  }
+  #exciting .heading img {
+    left: 57%;
+  }
+  #nurturing .heading img {
+    left: 70%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .each-value {
+    padding: 5% 10%;
+  }
+  .each-value h1 {
+    margin-top: 15%;
+    font-size: 44px;
+  }
+  .each-value p {
+    font-size: 18px;
+  }
+  .each-value .heading img {
+    width: 20%;
+    top: 12%;
+  }
+  #enriching .heading img, #fulfilling .heading img {
+    left: 60%;
+  }
+  #diverse .heading img {
+    left: 50%;
+  }
+  #exciting .heading img {
+    left: 55%;
+  }
+  #nurturing .heading img {
+    left: 65%;
+  }
+}
