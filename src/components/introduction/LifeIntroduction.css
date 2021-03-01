@@ -1,0 +1,46 @@
+/*** Life introduction ***/
+.life-introduction {
+  background-image: url("../../introduction-images/life-img-new.jpg");
+  background-size: cover;
+  height: 80vh;
+  display: grid;
+  align-content: center;
+}
+
+.life-introduction h1 {
+  font-size: 75px;
+  color: white;
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  .life-introduction {
+    background-position: center;
+  }
+  .life-introduction h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .life-introduction h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .life-introduction {
+    background-position: center;
+  }
+  .life-introduction h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .life-introduction h1 {
+    font-size: 65px;
+  }
+}

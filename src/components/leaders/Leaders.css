@@ -1,0 +1,144 @@
+/*** Leaders ***/
+.leaders {
+  padding: 4% 15%;
+}
+
+.leaders img {
+  width: 50%;
+  height: auto;
+  margin-left: 30%;
+}
+
+.leaders .col-sm-5, .leaders .col-sm-7 {
+  margin-bottom: 5%;
+}
+
+.leader-background {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.leader-background p {
+  font-size: 25px;
+  color: #006ec7;
+}
+
+.leader-background span {
+  font-weight: 700;
+}
+
+.leader-background i {
+  color:#f3c623;
+  margin-bottom: 4%;
+}
+
+.leader-name {
+  float: right;
+}
+
+.leader-name span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.logo-background img {
+  position: absolute;
+  z-index: -1;
+  top: 1500px;
+  width: 65%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .leaders {
+    padding: 12% 5%;
+  }
+  .leaders img {
+    margin-left: 25%;
+  }
+  .leaders .col-sm-5, .leaders .col-sm-7 {
+    margin-bottom: 10%;
+  }
+  .leader-background p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .leader-name span {
+    font-size: 14px;
+  }
+  .logo-background img {
+    width: 70%;
+    top: 2000px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .leaders {
+    padding: 8% 7%;
+  }
+  .leaders img {
+    width: 70%;
+    margin-left: 10%;
+  }
+  .leaders .col-sm-5, .leaders .col-sm-7 {
+    margin-bottom: 10%;
+  }
+  .leader-background p {
+    font-size: 17px;
+  }
+  .leader-name span {
+    font-size: 14px;
+  }
+  .logo-background img {
+    width: 65%;
+    top: 1050px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .leaders {
+    padding: 7% 5%;
+  }
+  .leaders img {
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .leader-background p {
+    font-size: 19px;
+  }
+  .leader-name {
+    float: left;
+  }
+  .leader-name span {
+    font-size: 15px;
+  }
+  .logo-background img {
+    width: 65%;
+    top: 1650px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .leaders {
+    padding: 6% 10%;
+  }
+  .leaders img {
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .leader-background p {
+    font-size: 19px;
+  }
+  .leader-name {
+    float: left;
+  }
+  .leader-name span {
+    font-size: 15px;
+  }
+  .logo-background img {
+    width: 65%;
+    top: 1370px;
+  }
+}

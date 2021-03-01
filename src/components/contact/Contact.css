@@ -1,0 +1,148 @@
+/*** Contact ***/
+.contact {
+  padding: 4% 20% 7%;
+}
+
+.contact .heading {
+  margin-bottom: 0
+}
+
+.contact .col-sm-8 {
+  padding: 3% 5% 5%;
+  border-right: solid thin #cccccc;
+}
+
+.contact .col-sm-4 {
+   padding: 3% 2% 5% 5%;
+ }
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 12% 5%;
+  }
+  .contact .col-sm-8 {
+    padding: 5% 5% 10%;
+    border-right: none;
+    border-bottom: solid thin #cccccc;
+  }
+  .contact .col-sm-4 {
+    padding: 10% 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  .contact {
+    padding: 8% 6%;
+  }
+  .contact .col-sm-8, .contact .col-sm-4 {
+    padding: 3% 3% 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact {
+    padding: 7% 7%;
+  }
+  .contact .col-sm-8, .contact .col-sm-4 {
+    padding: 3% 3% 5%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .contact {
+    padding: 6% 15%;
+  }
+}
+
+/*** Contact form ***/
+.contact input, .contact textarea {
+  padding-left: 7%;
+}
+
+.contact .btn-outline-light {
+  float: right;
+}
+
+.contact .marketing-consent-statement {
+  margin-top: 10%;
+}
+
+.contact .privacy-importance-statement {
+  margin-bottom: 5%;
+}
+
+.contact label, .contact .marketing-consent-statement p, .contact .privacy-importance-statement p {
+  font-size: 13px;
+}
+
+.contact label {
+  position: relative;
+  left: 5px;
+}
+
+#text-consent-checkbox, #call-consent-checkbox {
+  position: relative;
+  top: 7px;
+}
+
+@media (max-width: 480px) {
+  .contact input, .contact textarea {
+    padding-left: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  .contact input, .contact textarea {
+    padding-left: 9%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .contact input, .contact textarea {
+    padding-left: 8%;
+  }
+}
+
+/*** Contact form icons ***/
+.fa-user, .envelope-outline, .fa-pen-alt, .fa-mobile-alt {
+  color: #cccccc;
+  position: absolute;
+  left: 1%;
+}
+
+.fa-user {
+  top: 12px;
+}
+
+.fa-mobile-alt {
+  top: 72px;
+}
+
+.envelope-outline {
+  top: 130px;
+}
+
+.fa-pen-alt {
+  top: 192px;
+}
+
+/*** Contact details ***/
+.contact h6, .contact p {
+  font-size: 14px;
+}
+
+.email, .phone-number, .location {
+  margin-bottom: 20%;
+}
+
+@media (max-width: 480px) {
+  .email, .phone-number, .location {
+    margin-bottom: 12%;
+  }
+}
+
+/*** Contact details icons ***/
+.envelope-solid, .fa-phone-alt, .fa-map-marker-alt {
+  color: #f3c623;
+  margin-right: 4%;
+}

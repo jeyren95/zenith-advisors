@@ -1,0 +1,51 @@
+/*** Introduction ***/
+.home-introduction {
+ background-image: url("../../introduction-images/teamwork-img.jpg");
+ background-size: cover;
+ height: 100vh;
+ display: grid;
+ align-content: center;
+}
+
+.introduction-caption {
+  padding: 0 15%;
+}
+
+.introduction-caption h1 {
+  font-size: 85px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  .home-introduction {
+    background-position: center;
+  }
+  .introduction-caption h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  .introduction-caption h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .home-introduction {
+    background-position: center;
+  }
+  .introduction-caption h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .introduction-caption h1 {
+    font-size: 65px;
+  }
+}

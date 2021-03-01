@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "./Navbar"
+import LifeNavbar from "../navbar/LifeNavbar";
+
+import "./LifeIntroduction.css";
 
 class LifeIntroduction extends React.Component {
 
   render() {
     return (
-      <section id="life-introduction" >
-        <Navbar
+      <div className="life-introduction" >
+        <LifeNavbar
         introduction="/#introduction"
         leaders="/#leaders"
         lifeAtZenith="/life-at-zenith"
@@ -15,7 +17,7 @@ class LifeIntroduction extends React.Component {
         <div className="container-fluid">
           <h1 id="life-introduction-caption">Life At Zenith Is...</h1>
         </div>
-      </section>
+      </div>
     )
   }
 

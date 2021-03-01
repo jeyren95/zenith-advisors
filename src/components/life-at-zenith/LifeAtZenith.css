@@ -1,0 +1,42 @@
+/*** Life at Zenith ***/
+.life-at-zenith {
+  background-color: #006ec7;
+  text-align: center;
+}
+
+.life-at-zenith img {
+  width: 100%;
+}
+
+.life-at-zenith .col-sm-6 {
+  display: grid;
+  place-content: center;
+}
+
+.life-at-zenith h1 {
+  color: white;
+  margin-bottom: 3%;
+  font-size: 50px;
+}
+
+@media (max-width: 480px) {
+  .life-at-zenith h1 {
+    font-size: 25px;
+    margin-top: 10%;
+  }
+  .life-at-zenith button {
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px)  and (orientation: landscape) {
+  .life-at-zenith h1 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .life-at-zenith h1 {
+    font-size: 30px;
+  }
+}

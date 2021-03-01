@@ -1,10 +1,10 @@
 import React from "react";
 
-import Introduction from "./Introduction";
-import Leaders from "./Leaders";
-import LifeAtZenith from "./LifeAtZenith";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import HomeIntroduction from "./introduction/HomeIntroduction";
+import Leaders from "./leaders/Leaders";
+import LifeAtZenith from "./life-at-zenith/LifeAtZenith";
+import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 
 import history from "../history"
 import "./Home.css";
@@ -26,7 +26,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Introduction />
+        <HomeIntroduction />
         <Leaders />
         <LifeAtZenith />
         <div className="logo-background">

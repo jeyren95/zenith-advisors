@@ -2,9 +2,9 @@ import React from "react";
 
 import values from "../values";
 
-import LifeIntroduction from "./LifeIntroduction";
+import LifeIntroduction from "./introduction/LifeIntroduction";
 import Value from "./Value";
-import Footer from "./Footer";
+import Footer from "./footer/Footer";
 
 class Life extends React.Component {
   componentDidMount() {

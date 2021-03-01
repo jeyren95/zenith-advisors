@@ -1,8 +1,8 @@
 import React from "react";
 
+import "./Value.css";
+
 import {Carousel} from "react-bootstrap";
-
-
 import images from "../images";
 
 
@@ -20,42 +20,30 @@ class Value extends React.Component {
 
   render() {
     return (
-      <section id={this.props.sectionId}>
-        <div className="each-value container-fluid">
-          <div className="row">
-            <div className={`col-sm-6 value-caption ${this.props.second}`}>
-              <div className="heading">
-                <h1>{this.props.header}</h1>
-                <img src={this.props.icon} alt="icon-img" />
-                <p>{this.props.caption}</p>
-              </div>
+      <div className={`each-value ${this.props.sectionId}`}>
+
+        <div className="row">
+          <div className={`col-sm-6 value-caption ${this.props.second}`}>
+            <div className="caption-heading">
+              <h1>{this.props.header}</h1>
+              <img src={this.props.icon} alt="icon-img" />
             </div>
-
-
-            <div className={`col-sm-6 value-image ${this.props.first}`}>
-              <Carousel>
-                {this.renderImages()}
-              </Carousel>
+            <div className="caption-text">
+              <p>{this.props.caption}</p>
             </div>
           </div>
 
+          <div className={`col-sm-6 value-image ${this.props.first}`}>
+            <Carousel>
+              {this.renderImages()}
+            </Carousel>
+          </div>
         </div>
-      </section>
+
+
+      </div>
     )
   }
 }
 
 export default Value;
-
-
-
-//<div id={`${this.props.sectionId}-carousel`} className="carousel slide carousel-fade" data-ride="carousel">
-//  <ol className="carousel-indicators">
-//    <li data-target={`#${this.props.sectionId}-carousel`} data-slide-to="0" className="active"></li>
-//    <li data-target={`#${this.props.sectionId}-carousel`} data-slide-to="1"></li>
-//    <li data-target={`#${this.props.sectionId}-carousel`} data-slide-to="2"></li>
-//  </ol>
-//  <div className="carousel-inner">
-//    {this.renderImages()}
-//  </div>
-//</div>

@@ -1,0 +1,64 @@
+/*** Navbar ***/
+.navbar {
+  padding: 0 15%;
+  background-color: white !important;
+  box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
+}
+
+.navbar img {
+  width: 40%;
+  height: auto;
+}
+
+.nav-item {
+  margin: auto;
+  padding: 0 2%;
+}
+
+.nav-item a {
+  font-weight: bold;
+  color: #525b73 !important;
+}
+
+.home-link a:hover, .who-we-are-link a:hover, .life-at-zenith-link a:hover  {
+  border-bottom: solid thin #006ec7;
+}
+
+@media (max-width: 1024px) {
+  .home-link a:hover, .who-we-are-link a:hover, .life-at-zenith-link a:hover  {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 3% 12%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .navbar {
+    padding: 1% 15%;
+  }
+  .navbar img {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    padding: 1% 15%;
+  }
+  .navbar img {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .navbar {
+    padding: 1% 15%;
+  }
+  .navbar img {
+    width: 50%;
+  }
+}

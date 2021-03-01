@@ -1,0 +1,95 @@
+/*** All the values section ***/
+.each-value {
+  padding: 2% 15%;
+}
+
+.value-caption {
+  display: grid;
+  align-content: center;
+}
+
+
+.caption-heading h1, .caption-text p {
+  text-align: left;
+  color: #006ec7;
+  margin-left: 5%;
+}
+
+.caption-heading h1 {
+  font-size: 50px;
+}
+
+.caption-text p {
+  font-size: 20px;
+}
+
+.caption-heading h1, .caption-heading img {
+  display: inline-block;
+}
+
+.caption-heading img {
+  position: relative;
+  bottom: 12px;
+  left: 5%;
+}
+
+
+.each-value .carousel-inner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 480px) {
+  .each-value {
+    padding: 12% 2%;
+  }
+  .value-caption {
+    margin-bottom: 4%;
+  }
+  .caption-heading h1 {
+    font-size: 35px;
+  }
+  .caption-text p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+  .each-value {
+    padding: 5% 2%;
+  }
+  .caption-heading h1 {
+    font-size: 35px;
+  }
+  .caption-text p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .each-value {
+    padding: 7% 2%;
+  }
+  .caption-heading h1 {
+    font-size: 42px;
+  }
+  .caption-text p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .each-value {
+    padding: 5% 10%;
+  }
+  .caption-heading h1 {
+    font-size: 42px;
+  }
+  .caption-text p {
+    font-size: 18px;
+  }
+}
