@@ -48,8 +48,12 @@ class Leaders extends React.Component {
               </div>
             </div>
           </div>
-
         </div>
+
+        <div className="logo-background">
+          <img src="../images/background/logo-img.png" alt="logo-img" />
+        </div>
+
       </div>
 
 

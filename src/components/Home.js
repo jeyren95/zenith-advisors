@@ -28,10 +28,8 @@ class Home extends React.Component {
       <div>
         <HomeIntroduction />
         <Leaders />
+
         <LifeAtZenith />
-        <div className="logo-background">
-          <img src="../images/background/logo-img.png" alt="logo-img" />
-        </div>
         <Contact />
         <Footer />
       </div>

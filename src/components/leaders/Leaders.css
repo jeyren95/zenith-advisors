@@ -3,7 +3,7 @@
   padding: 4% 15%;
 }
 
-.leaders img {
+.descriptions-of-leaders img {
   width: 50%;
   height: auto;
   margin-left: 30%;
@@ -41,19 +41,13 @@
   font-weight: normal;
 }
 
-.logo-background img {
-  position: absolute;
-  z-index: -1;
-  top: 1500px;
-  width: 65%;
-  height: auto;
-}
+
 
 @media (max-width: 480px) {
   .leaders {
     padding: 12% 5%;
   }
-  .leaders img {
+  .descriptions-of-leaders img {
     margin-left: 25%;
   }
   .leaders .col-sm-5, .leaders .col-sm-7 {
@@ -66,17 +60,13 @@
   .leader-name span {
     font-size: 14px;
   }
-  .logo-background img {
-    width: 70%;
-    top: 2000px;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
   .leaders {
     padding: 8% 7%;
   }
-  .leaders img {
+  .descriptions-of-leaders img {
     width: 70%;
     margin-left: 10%;
   }
@@ -89,17 +79,14 @@
   .leader-name span {
     font-size: 14px;
   }
-  .logo-background img {
-    width: 65%;
-    top: 1050px;
-  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .leaders {
     padding: 7% 5%;
   }
-  .leaders img {
+  .descriptions-of-leaders img {
     width: 70%;
     margin-left: 5%;
     margin-top: 10%;
@@ -112,10 +99,6 @@
   }
   .leader-name span {
     font-size: 15px;
-  }
-  .logo-background img {
-    width: 65%;
-    top: 1650px;
   }
 }
 
@@ -137,8 +120,56 @@
   .leader-name span {
     font-size: 15px;
   }
+
+}
+
+/*** Logo background ***/
+.logo-background img {
+  position: absolute;
+  left: 0%;
+  top: 170%;
+  z-index: -1;
+  width: 65%;
+}
+
+@media (max-width: 380px) {
+  .logo-background img {
+    width: 100%;
+    top: 278%;
+  }
+}
+
+@media (max-width: 670px) and (orientation: landscape) {
   .logo-background img {
     width: 65%;
-    top: 1370px;
+    top: 275%
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .logo-background img {
+    width: 100%;
+    top: 260%;
+  }
+}
+
+@media (min-width: 681px) and (max-width: 767px) and (orientation: landscape)  {
+  .logo-background img {
+    width: 65%;
+    top: 250%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo-background img {
+    width: 75%;
+    top: 155%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .logo-background img {
+    width: 75%;
+    top: 195%;
   }
 }
