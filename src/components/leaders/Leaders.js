@@ -10,7 +10,7 @@ class Leaders extends React.Component {
     return (
       <div className="leaders">
 
-        <Heading title="Meet Our Founders" />
+        <Heading title="Meet Our Founding Agency Leaders" />
 
         <div className="descriptions-of-leaders">
           <div className="row">
@@ -20,13 +20,13 @@ class Leaders extends React.Component {
             <div className="col-sm-7 order-sm-1">
               <div className="leader-background">
                 <i className="fas fa-quote-left fa-3x"></i>
-                <p>A career in financial planning has gifted me with an <span>exceptionally
+                <p>A career in financial planning has given me an <span>exceptionally
                 rewarding experience</span>, enabling me to reach my <span>fullest potential</span>
                  , all while still maintaining <span>great flexibility</span> in my schedule.
                 </p>
               </div>
               <div className="leader-name">
-                <h5>Calvin Tan <span>- Senior Director, Financial Services</span></h5>
+                <h5>Calvin Tan <span>- TQC200077159</span></h5>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ class Leaders extends React.Component {
                 </p>
               </div>
               <div className="leader-name">
-                <h5>Robert Tan <span>- Senior Director, Financial Services</span></h5>
+                <h5>Robert Tan <span>- TCY200076618</span></h5>
               </div>
             </div>
           </div>

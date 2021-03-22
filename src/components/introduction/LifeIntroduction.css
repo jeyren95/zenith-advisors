@@ -7,6 +7,10 @@
   align-content: center;
 }
 
+.life-introduction-caption {
+  padding: 0 15%;
+}
+
 .life-introduction h1 {
   font-size: 75px;
   color: white;

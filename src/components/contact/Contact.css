@@ -1,6 +1,6 @@
 /*** Contact ***/
 .contact {
-  padding: 4% 20% 7%;
+  padding: 4% 15% 7%;
 }
 
 .contact .heading {
@@ -41,7 +41,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .contact {
-    padding: 7% 7%;
+    padding: 7% 3%;
   }
   .contact .col-sm-8, .contact .col-sm-4 {
     padding: 3% 3% 5%;
@@ -63,31 +63,28 @@
   float: right;
 }
 
-.contact .marketing-consent-statement {
+.contact .recruitment-consent-statement {
   margin-top: 10%;
+}
+
+.contact .recruitment-consent-statement h6 {
+  margin-bottom: 2.5%;
 }
 
 .contact .privacy-importance-statement {
   margin-bottom: 5%;
 }
 
-.contact label, .contact .marketing-consent-statement p, .contact .privacy-importance-statement p {
+.contact .recruitment-consent-statement p, .contact .privacy-importance-statement p {
   font-size: 13px;
-}
-
-.contact label {
-  position: relative;
-  left: 5px;
-}
-
-#text-consent-checkbox, #call-consent-checkbox {
-  position: relative;
-  top: 7px;
 }
 
 @media (max-width: 480px) {
   .contact input, .contact textarea {
     padding-left: 8% !important;
+  }
+  .contact .recruitment-consent-statement h6 {
+    margin-bottom: 5%;
   }
 }
 
@@ -95,11 +92,17 @@
   .contact input, .contact textarea {
     padding-left: 7% !important;
   }
+  .contact .recruitment-consent-statement h6 {
+    margin-bottom: 4%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
   .contact input, .contact textarea {
     padding-left: 7% !important;
+  }
+  .contact .recruitment-consent-statement h6 {
+    margin-bottom: 3%;
   }
 }
 

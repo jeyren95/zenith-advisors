@@ -1,6 +1,7 @@
 import React from "react";
 
 import HomeIntroduction from "./introduction/HomeIntroduction";
+import About from "./about/About"
 import Leaders from "./leaders/Leaders";
 import LifeAtZenith from "./life-at-zenith/LifeAtZenith";
 import Contact from "./contact/Contact";
@@ -14,6 +15,7 @@ class Home extends React.Component {
     return (
       <div>
         <HomeIntroduction />
+        <About />
         <Leaders />
         <LifeAtZenith />
         <Contact />

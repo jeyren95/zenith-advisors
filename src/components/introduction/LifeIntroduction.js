@@ -14,8 +14,8 @@ class LifeIntroduction extends React.Component {
         lifeAtZenith="/life-at-zenith"
         contact="/#contact"
         />
-        <div className="container-fluid">
-          <h1 id="life-introduction-caption">Life At Zenith Is...</h1>
+        <div className="life-introduction-caption">
+          <h1>Life At Zenith Is...</h1>
         </div>
       </div>
     )

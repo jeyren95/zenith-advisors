@@ -124,10 +124,10 @@
 }
 
 /*** Logo background ***/
-.logo-background img {
+.logo-background  {
   position: absolute;
   left: 0%;
-  top: 170%;
+  top: 200%;
   z-index: -1;
   width: 65%;
 }
@@ -135,41 +135,47 @@
 @media (max-width: 380px) {
   .logo-background img {
     width: 100%;
-    top: 278%;
+    top: 323%;
   }
 }
 
 @media (max-width: 670px) and (orientation: landscape) {
   .logo-background img {
     width: 65%;
-    top: 275%
+    top: 353%
   }
 }
 
 @media (min-width: 381px) and (max-width: 480px) {
   .logo-background img {
     width: 100%;
-    top: 260%;
+    top: 305%;
   }
 }
 
 @media (min-width: 681px) and (max-width: 767px) and (orientation: landscape)  {
   .logo-background img {
     width: 65%;
-    top: 250%;
+    top: 312%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .logo-background img {
     width: 75%;
-    top: 155%;
+    top: 183%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .logo-background img {
     width: 75%;
-    top: 195%;
+    top: 240%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .logo-background img {
+    top: 180%;
   }
 }
