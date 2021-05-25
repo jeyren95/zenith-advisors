@@ -10,7 +10,6 @@ import Footer from "./footer/Footer";
 import "./Home.css";
 
 class Home extends React.Component {
-
   render() {
     return (
       <div>

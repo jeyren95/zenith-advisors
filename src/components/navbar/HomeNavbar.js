@@ -21,7 +21,7 @@ class HomeNavbar extends React.Component {
               <Link className="nav-link text-nowrap" to={this.props.introduction} spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
             </li>
             <li className="home-link nav-item">
-              <Link className="nav-link text-nowrap" to={this.props.leaders} spy={true} smooth={true} offset={-70} duration={500}>Our Founders</Link>
+              <Link className="nav-link text-nowrap" to={this.props.leaders} spy={true} smooth={true} offset={-70} duration={500}>Our Founding Agency Leaders</Link>
             </li>
             <li className="life-at-zenith-link nav-item">
               <Link className="nav-link text-nowrap" to={this.props.lifeAtZenith} spy={true} smooth={true} offset={-70} duration={500}>Life At Zenith</Link>

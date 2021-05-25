@@ -48,21 +48,21 @@ class Contact extends React.Component {
                   <p>I would like to stay in touch with The Great Eastern Life Assurance Company Limited/Great Eastern Financial Advisers Pte Ltd and its related
                     corporations (collectively, the "Companies") for the purpose of receiving updates on any job opportunities
                   </p>
-                  <p>By providing the information set out above, I agree and consent to the Companies, as well as their respective representatives, agents, the 
+                  <p>By providing the information set out above, I agree and consent to the Companies, as well as their respective representatives, agents, the
                     Companies' authorised service providers and relevant third parties, collecting, using and/or disclosing my personal data for purposes reasonably
                     required by the Company in connection to contacting me about any relevant job opportunities (which the Companies deem suitable) and/or processing
                     my job application. The purposes relating to the foregoing are set out in Great Eastern's Privacy Statement, which is accessible from Great Eastern
                     Singapore's website, which I confirm I have read and understood.
                   </p>
-                  
+
                   <p>*This option includes voice calls, phone number-based messaging (e.g. SMS/MMS, WhatsApp, WeChat) and fax via my Singapore telephone number(s)
                     provided here as well as any future updates to this number.
                   </p>
                 </div>
 
                 <div className="privacy-importance-statement">
-                  <p>Your privacy is of utmost importance to us. Should you wish to withdraw your consent to use your above personal data for recruitment purpose at 
-                    any time, do email us at Lifeproofcareer@greateasternlife.com. 
+                  <p>Your privacy is of utmost importance to us. Should you wish to withdraw your consent to use your above personal data for recruitment purpose at
+                    any time, do email us at Lifeproofcareer@greateasternlife.com.
                   </p>
                 </div>
 
@@ -73,7 +73,7 @@ class Contact extends React.Component {
             <div className="col-sm-4 zenith-contact">
               <div className="email">
                 <h6><i className="fas fa-envelope envelope-solid"></i>Email Us</h6>
-                <p style={{"word-wrap": "break-word"}}>zenithadvisors@greateasternlife.com</p>
+                <p style={{"wordWrap": "break-word"}}>zenithadvisors@rep-sg.greateasternlife.com</p>
               </div>
               <div className="phone-number">
                 <h6><i className="fas fa-phone-alt"></i>Call Us</h6>

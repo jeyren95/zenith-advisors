@@ -21,7 +21,7 @@ class LifeNavbar extends React.Component {
               <a className="nav-link text-nowrap" href={this.props.introduction}>Home</a>
             </li>
             <li className="home-link nav-item">
-              <a className="nav-link text-nowrap" href={this.props.leaders}>Our Founders</a>
+              <a className="nav-link text-nowrap" href={this.props.leaders}>Our Founding Agency Leaders</a>
             </li>
             <li className="life-at-zenith-link nav-item">
               <Link className="nav-link text-nowrap" to={this.props.lifeAtZenith}>Life At Zenith</Link>

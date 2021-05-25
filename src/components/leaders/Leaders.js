@@ -10,7 +10,7 @@ class Leaders extends React.Component {
     return (
       <div className="leaders">
 
-        <Heading title="Meet Our Founding Agency Leaders" />
+        <Heading title="Our Founding Agency Leaders" />
 
         <div className="descriptions-of-leaders">
           <div className="row">
@@ -26,7 +26,7 @@ class Leaders extends React.Component {
                 </p>
               </div>
               <div className="leader-name">
-                <h5>Calvin Tan <span>- TQC200077159</span></h5>
+                <h5>Calvin Tan <span>- Rep No. TQC200077159</span></h5>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ class Leaders extends React.Component {
                 </p>
               </div>
               <div className="leader-name">
-                <h5>Robert Tan <span>- TCY200076618</span></h5>
+                <h5>Robert Tan <span>- Rep No. TCY200076618</span></h5>
               </div>
             </div>
           </div>
